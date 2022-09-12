@@ -6,6 +6,7 @@ class SegmentTab {
   const SegmentTab({
     required this.label,
     this.color,
+    this.gradient,
     this.selectedTextColor,
     this.backgroundColor,
     this.textColor,
@@ -21,6 +22,9 @@ class SegmentTab {
   ///
   /// Overrides [indicatorColor] from [SegmentedTabControl].
   final Color? color;
+
+  /// Overrides [gradient] from [SegmentedTabControl].
+  final Gradient? gradient;
 
   /// Text color when this option is selected.
   ///

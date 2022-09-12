@@ -39,6 +39,18 @@ class MyApp extends StatelessWidget {
                         label: 'ACCOUNT',
                         // For example, this overrides [indicatorColor] from [SegmentedTabControl]
                         color: Colors.red.shade200,
+                        gradient: const LinearGradient(
+                          colors: [
+                            Color(0xffFED05E),
+                            Color(0xffFED05E),
+                            Color(0xffF0BF50),
+                            Color(0xffC08A3B),
+                            Color(0xffFED05E),
+                            Color(0xffAE6909),
+                          ],
+                          begin: Alignment.centerLeft,
+                          end: Alignment.centerRight,
+                        )
                       ),
                       SegmentTab(
                         label: 'HOME',
